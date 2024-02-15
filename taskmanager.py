@@ -279,7 +279,7 @@ def excluir_tarefa():
 
 def exibir_subtitulo(texto):
     os.system('cls')
-    linha = '#' * (len(texto))
+    linha = '*' * (len(texto))
     print(linha)
     print(texto)
     print(linha)
